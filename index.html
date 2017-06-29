@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Darth 2017</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Font Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#issues" onclick=$("#menu-close").click();>Issues</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+          <div class="container-fluid">
+            <div class="row" id="sign-up-control">
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="logo" title="logo"></div>
+                <form class="sign-up">
+                  <input type="email" id="inputEmail" class="form-control input-lg" placeholder="Email address" required autofocus>
+                  <input type="number" id="inputZipcode" class="form-control input-lg" placeholder="US zip code" min="0" max="99999" required>
+                  <button class="btn btn-lg btn-primary btn-block" id="submit-btn" type="submit">Sign up</button>
+                </form>
+                  <div id="message" class="text-uppercase"></div>
+              </div>
+            </div>
+            <div class="text-vertical-center">
+              <a href="#about" id="about-btn" class="btn btn-red btn-lg">Learn More About Darth <span><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+            </div>
+          </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Meet Darth Vader</h2>
+                    <p class="lead"><em>Anakin Skywalker who? Never heard of him.</em> Lucas ipsum dolor sit amet terrik fey'lya walon massans jan clawdite lobot obi-wan moor calamari. Woostoid salacious r2-d2 kenobi kanos felucia ithorian darth. Utai kamino utapau gora wesell bib ablajeck jax. Talortai briqualon boba farlander. Caedus braxant aqualish mandalore aqualish. Anthos saesee gorax vaathkree duros. Solo sly sebulba feeorin. Tchuukthai wicket letaki letaki jax. Illum sern vebb kowakian nosaurian utapau veknoid. Elom max stereb ziro. Kohl quermian rhen jade bel naberrie. Mccool nassau rukh plagueis ors even mayagil.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Images of Darth -->
+    <section id="images" class="images bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Darth Vader</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                            <img src="https://images.moviepilot.com/images/c_limit,q_auto:good,w_600/pq5evsaqiw4jqujvwn5z/darth-vader-s-back-for-rogue-one.jpg" style="height: 230px; width: 230px;">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                            <img src="http://img.amiami.jp/images/product/main/151/FIGURE-010644.jpg" style="height: 230px; width: 230px;">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                            <img src="http://i.imgur.com/uUUHovL.jpg" style="height: 230px; width: 230px;">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                            <img src="http://prodimage.images-bn.com/pimages/9781452106557_p0_v1_s1200x630.jpg" style="height: 230px; width: 230px;">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Issues -->
+    <section id="issues" class="issues">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Darth on the Issues</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="issues-item">
+                                <em>Who needs democracy when you can have tyranny?</em> Caamasi owen moff terrik klaatu mace. Unu c-3p0 jamillia skakoan hutt balosar. Kor-uj wedge nadd dantari qel-droma kel ackbar. Yaka nas nagai noghri. Tapani gorog baba juvex -1b reach grievous ailyn vivenda. Plagueis wharl mon ben reach gamorr. R5-d4 ansionian kamino hoth falleen clawdite bane yevetha thrawn. Aramandi boba jaina lumiya saché. Ahsoka fosh bail vilim rodian. Elom fortuna lars jinn mandell mothma fel sidious. Hutt tharen abrion whill. Chagrian valorum oola antilles yuuzhan. Kohl darth gunray orus dorvalla.
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="issues-item">
+                                <em>I've got 99 planets, but Alderaan ain't one.</em> Ebe ima-gun max iego zuckuss nunb. C'baoth ryn rishi chommell tano yavin senesca. Daala quarren gado zuckuss rex ev-9d9 shmi. R5-d4 anakin jan kaleesh cassio. Nunb auril wharl quelli djo veers gora mace nute. Vong gev metalorn tahiri abregado sith saleucami max. Vader gallia grievous obi-wan whill dengar talz. Klatooinian fel chewbacca nas palpatine joelle drall wroonian. Veers momaw mirialan abrion. Solo ponda cerea wicket ackbar lahara ruwee coruscant theelin. Durge rebo trioculus balosar san ishi.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="#" class="btn btn-dark">View More Items</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div id= "contact" class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Paid for by Darth for Galactic Overlord</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    </script>
+
+</body>
+
+</html>

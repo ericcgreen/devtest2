@@ -1,0 +1,22 @@
+{
+  "name": "devtest2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericcgreen/devtest2.git"
+  },
+  "author": "Eric Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericcgreen/devtest2/issues"
+  },
+  "homepage": "https://github.com/ericcgreen/devtest2#readme",
+  "dependencies": {
+    "less": "^2.7.2"
+  }
+}
